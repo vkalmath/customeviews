@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         UnderLinedTextView underLinedTextView = (UnderLinedTextView)findViewById(R.id.underLineTextView);
         //set the height
         underLinedTextView.setUnderLineHeight(2);
-        //set the color
+        //set the color   
         underLinedTextView.setUnderLineColor(Color.BLUE);
 
     }
