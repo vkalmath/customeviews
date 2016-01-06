@@ -24,11 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         //custom UNDERLINED TEX VIEW
         UnderLinedTextView underLinedTextView = (UnderLinedTextView)findViewById(R.id.underLineTextView);
-        //set the height
-        underLinedTextView.setUnderLineHeight(2);
-        //set the color
-        underLinedTextView.setUnderLineColor(Color.BLUE);
-
     }
 
     @Override

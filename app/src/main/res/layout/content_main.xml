@@ -13,6 +13,9 @@
     tools:showIn="@layout/activity_main">
 
     <vk.com.customviews.widget.UnderLinedTextView
+        xmlns:vk="http://schemas.android.com/apk/res-auto"
+        vk:underlineColor = "@color/colorAccent"
+        vk:underlineHeight="@dimen/height"
         android:id="@+id/underLineTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
